@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="books.html">Libros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="sect">
+        <h2 class="slogan">Encuentre los mejores libros de ciencia ficción</h2>
+        <h3 class="introduccion">Los libros que usted encontrará en este sitio web son de recomendación personal, <br> así que si usted es fanatico de algunos de estos generos espero que disfrute de la lectura de estos grandiosos libros.</h3>
+    </div>
+    <main>
+        <section class="books" id="addBook">
+            <div class="bookRead">
+                <h2>Libros Agregados</h2>
+            </div>
+            <div class="mainBooks">
+                <h2 class="">Titulo del libro</h2>
+                <img src="img/la vuelta al mundo.jpg" alt="La vuelta al mundo en 80 días" width="100">
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, consectetur delectus quisquam quidem error tempora. Sequi magni, dolore eligendi, explicabo totam, ipsa animi corrupti excepturi libero vero error quaerat! Vitae.</p>
+                <a class="btn" href="#">Link al libro</a>
+            </div>
+            <div class="mainBooks">
+                <h2 class="clear">Titulo del libro</h2>
+                <img src="img/la vuelta al mundo.jpg" alt="La vuelta al mundo en 80 días" width="100">
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, consectetur delectus quisquam quidem error tempora. Sequi magni, dolore eligendi, explicabo totam, ipsa animi corrupti excepturi libero vero error quaerat! Vitae.</p>
+                <a class="btn" href="#">Link al libro</a>
+            </div>
+        </section>
+        <aside >
+            <form action="" name="formulario" method="GET">
+                <label for="title">Titulo: </label>
+                <input type="text" id="title" name="title" placeholder="Escribe el título del libro">
+
+                <label for="desription">Descripción: </label>
+                <input type="text" id="description" name="description" placeholder="Escribe una descrpción del libro">
+
+                <label for="imageURL">Imagen</label>
+                <input type="text" id="imageURL" name="imageURL" placeholder="Agrega una portada del libro">
+
+                <label for="bookURL">Link al libro</label>
+                <input type="text" id="bookURL" name="bookURL" placeholder="Especifica la ruta para encontrar el libro">
+
+                <input type="button" value="Agregar" id="agregar">
+            </form>
+        </aside>
+
+        <div class="autors clear">
+            <div class="recomended">
+                <h2 class="clear">Autores de libros más recomendados</h2>
+            </div>
+            <div class="bibli order">
+                <img src="img/julio verne.jpg" alt="Julio Verne" width="100">
+                <p>Julio Verne</p>
+                <a class="btn" href="#">Biografia</a>
+            </div>
+            <div class="bibli">
+                <img src="img/julio verne.jpg" alt="Julio Verne" width="100">
+                <p>Julio Verne</p>
+                <a class="btn" href="#">Biografia</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Mi primera pagina - Juan Carlos Ramírez Mariscal</p>
+        <p>Derechos Reservados 2021 Febrero</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

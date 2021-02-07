@@ -1,0 +1,208 @@
+:root{
+    --body-color: #e1e5eb;
+    --header-footer: #232533;
+    --main: #FFFFFF;
+    --form: #B1B2C9;
+    /* --form: #B1B2C9; */
+    --font: 'Lato', sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: var(--body-color);
+}
+
+header, footer {
+    width: 100%;
+    color: white;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: var(--main);
+    padding: 10px;
+    border-radius: 15px;
+}
+header nav, footer{
+    background: var(--header-footer);
+    overflow: hidden;
+    height: 80px;
+    font-family: var(--font);
+}
+.sect{
+    background: var(--header-footer);
+    width: 100%;
+    height: 140px;
+    font-family: var(--font);
+    text-align: center;
+}
+.sect .slogan{
+    color: #B1B2C9;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.sect .introduccion{
+    font-size: 18px;
+	margin-bottom: 30px;
+    color: white;
+}
+header p{
+    text-align: center;
+}
+footer{
+    height: 100px;
+}
+header nav ul {
+    list-style-type: none;
+}
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: var(--body-color);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: #75ACEC;
+}
+
+.books{
+    width: 68.5%;
+    margin-right: 1.5%;
+    /* background: red; */
+    /* padding: 12px; */
+    float: left;
+    border-radius: 10px;
+}
+.pageBooks{
+    width: 100%;
+}
+.bookRead, .mainBooks, .addBooks{
+    font-family: var(--font);
+}
+.bookRead{
+    background: var(--form);
+    text-align: center;
+    padding: 10px;
+    margin: 13px;
+}
+.mainBooks{
+    background: var(--form);
+    padding: 16px;
+    margin: 13px;
+}
+
+main .books img{
+    width: 8%;
+    margin: 4px;
+    float: left;
+}
+main .pageBooks img{
+    width: 25%;
+    margin: 4px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+
+aside {
+    background: var(--form);
+    width: 27%;
+    /* max-width: 1000px; */
+    float: left;
+    /* padding-top: 40px; */
+    /* box-sizing: border-box; */
+    margin: 13px;
+    /* margin-left: 50px; */
+    font-family: var(--font);
+}
+
+form{
+    border: 1px solid var(--form);
+    margin: 5px;
+    padding: 15px;
+}
+label{
+    display: block;
+    width: 100%;
+    border-radius: 10%;
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 6px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+input:focus{
+    outline: 0px;
+    border: 2px solid #1668C4; /*Borde al dar un click*/
+}
+
+input[type="submit"] { /*Dar estilo a un input dependiendo de su tipo*/
+    margin-bottom: 0px;
+    background: #1668C4;
+    color: white;
+    border-radius: 5px;
+}
+input[type="submit"]:hover{
+    background: #4A88F4;
+    cursor: pointer; /*Cambiar el mouse al pasarlo*/
+}
+.autors{
+    font-family: var(--font);
+    background: var(--form);
+    height: 30%;
+    margin: 13px;
+    margin-right: 16px;
+    /* padding: 14px;  */
+}
+
+.recomended{
+    padding: 10px;
+}
+.bibli{
+    padding: 10px;
+}
+.autors .order{
+    float: left;
+}
+
+.btn{
+    display: inline-block;
+    background: #505EF4;
+    color: #fff;
+    padding: 5px 10px ;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background: #4A88F4;
+}
+
+footer{
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.addBooks{
+    background: var(--form);
+    width: 27.5%;
+    /* margin-right: 1%; */
+    padding: 16px;
+    margin: 13px;
+    float: left;
+}
